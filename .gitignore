@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Temp files
+*.tmp
+
+# Assignment artifacts (not part of the agent)
+Backend_Home_Assignment__AI_Debugging__Auto-Fix_Agent_.pdf
+ASSIGNMENT_ANALYSIS.md
+gcp_function.ts
+
+# Cloud Function build artifacts
+cloud-function/node_modules/
+cloud-function/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
